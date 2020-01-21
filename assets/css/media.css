@@ -1,0 +1,134 @@
+@media screen and (min-width: 992px) and (max-width:1024px){
+
+}
+
+@media screen and (min-width: 768px) and (max-width:991px){
+    #sidebar-wrapper .sidebar-nav li a{
+        font-size: 12px;
+        font-weight: 600;
+    }
+    .navbar-brand{width: 95px}
+    .addbtn {  
+        text-align: right;     
+        margin:0;
+    }
+    .addbtn .btn {
+        display: inline-block;
+        margin: 0 auto 20px;
+    }
+    .addbtn .dropdown {
+        display: block;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width:767px){
+    .snackbar_msg {
+    width: 95%;
+}
+    #sidebar-wrapper {
+        height: auto !important;
+    }
+    .btnhead {
+        margin-top: 16px;
+    }
+    .profile {
+        margin-left: auto;
+        margin-right: 10px;
+    }
+    .addbtn {
+         text-align: center;
+        margin:0;
+    }
+    .addbtn .btn {
+        display: inline-block;
+        margin: 0 auto 20px;
+    }
+    .addbtn .dropdown {
+        display: block;
+    }
+    .logblock {
+        right: 60px;
+        top: 56px;
+    }
+    .navbar-nav a {
+        color: #fff;
+        text-decoration: none;
+    }
+    .navbar-nav a i {
+        margin-right: 15px;
+}
+
+    .navbar-nav li {
+        line-height: 45px;
+        list-style: none;
+    }
+    .design_page {
+        margin-bottom:30px;
+    }
+    .pad360{
+        padding: 0;
+    }
+    .mtop{
+        margin-top: 0px;
+    }
+    .navbar-collapse {
+        margin-top: 15px;
+    }
+    .sidebar-icon {
+        margin: 0 15px 0 0;
+    }
+    .navbar-dark .navbar-toggler {
+        border-color: transparent;
+    }
+    .navbar-toggler
+    {
+       border-color: transparent; 
+    }
+    table .dtr-title {
+    width: 40%;
+    vertical-align: top;
+}
+    .dtr-data {
+        font-size: 13px;
+    display: inline-block;
+    width: 58%;
+    } 
+    .dtr-details{
+        width:100%;
+    }
+     #item_review .form-control {
+        height: auto;
+        width: 140px;
+    }
+    .sub_box1 {
+        padding: 103px 12px 10px 45px;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width:359px){           
+    #Campaign_page .dtr-data a.btn.btn-sm {
+        display: block;
+        margin-bottom: 10px;
+    }         
+    table.dataTable>tbody>tr.child ul.dtr-details>li {
+        font-size: 13px;
+    }
+    #item_review .form-control {
+        height: auto;
+        width: 130px;
+    }
+}
+
+@media (min-width:1920px){ 
+.sideblock {
+    flex: 0 0 18%;
+    max-width: 18%;
+}
+.sideblock1 {
+    flex: 0 0 80%;
+    max-width: 80%;
+}
+.sub_box1 {
+    padding: 103px 12px 10px 45px;
+    }
+}
